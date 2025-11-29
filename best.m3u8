@@ -1525,6 +1525,8 @@ https://abby.pixelcraft.qzz.io/nba2.m3u8
 https://simplee.pixelcraft.qzz.io/ncaa3.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Ball State vs Miami (Ohio)
 https://simplee.pixelcraft.qzz.io/ncaa6.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Boston College vs Syracuse
+https://simplee.pixelcraft.qzz.io/ncaa11.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Charlotte vs Tulane
 https://simplee.pixelcraft.qzz.io/ncaa8.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Cincinnati vs TCU
@@ -1563,6 +1565,8 @@ https://simplee.pixelcraft.qzz.io/ncaa.m3u8
 https://simplee.pixelcraft.qzz.io/ncaa2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Ohio State vs Michigan
 https://simplee.pixelcraft.qzz.io/ncaa.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Oregon State vs Washington State
+https://simplee.pixelcraft.qzz.io/ncaa11.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Oregon vs Washington
 https://abby.pixelcraft.qzz.io/ncaa13.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Penn State vs Rutgers
