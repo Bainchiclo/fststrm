@@ -1,11 +1,5 @@
 #EXTM3U url-tvg="https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/DrewLive.xml.gz"
 
-#EXTGRP:Other
-#EXTINF:-1 group-logo="https://cdn.vectorstock.com/i/1000v/25/32/tv-or-television-channel-logo-design-template-vector-30742532.jpg"
-****#EXTINF:-1 tvg-id="" group-title="PH Cable TV" tvg-logo="https://3abn.org/img/logos/3abn-logo-md.jpg",3ABN
-#EXTINF:-1 group-logo="https://play-lh.googleusercontent.com/kA-Bk9yN6VcSUk21JzwavWSln1l9kusxYZYgL8xsmMLwCSGlE9EDngSVAaO3ayX-xJA"
-*****#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg" group-title="Sports TV", Bein Sports US
-
 #EXTGRP:PH Cable TV
 #EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="" group-title="PH Cable TV",3rsSINEPINOY
 https://live20.bozztv.com/giatvplayout7/giatv-210267/tracks-v1a1/mono.ts.m3u8
