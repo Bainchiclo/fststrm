@@ -1704,6 +1704,8 @@ https://aba5sdmaaaaaaaamdwujas5g6mg4r.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2705/default_ott.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.xumo.com/v1/channels/channel/8111111/600x337.webp?type=channelTile" group-title="Sports TV", Billiard TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=15270&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]&app_store_url=[APP_STOREURL]&app_name=[APP_NAME]&custom_targeting=html5&custom_4=lg_channels_us&player_height=720&player_width=1280&content_channel=lg_channels&content_dist_name=lg_channels&device_make=[DEVICE_MAKE]&device_model=[DEVICE_MODEL]&device_os=html5&consent=[GDPR_CONSENT]&gdpr=[GDPR]&gender=not_specified&yob=0&livestream=1&custom_param_0=[DEVICE_MODEL]&custom_param_1=tv&custom_param_2=[DEVICE_MAKE]&custom_param_3=[DEVICE_ID]&custom_param_4=lg_channels&custom_param_5=html5&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rJMTP3bvJ36M3x03QLmT5-Q4sZDUmcIrJQ&s" group-title="Sports TV", Billiards+
+https://streams2.sofast.tv/WiseM3U8_18/sofast/cleanhls/master.m3u8
 #EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="" group-title="Sports TV",Blast Sports
 https://amg19223-amg19223c1-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c1-amgplt0351/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://variety.com/wp-content/uploads/2013/09/espn-logo.jpg" group-title="Sports TV", ESPN 1
@@ -1790,6 +1792,8 @@ https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/cmtyd9kpfe/o
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
 https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYecYcld-Q9RtnNbvzy59UFZTX8dMTmXtufA&s" group-title="Sports TV", MotorRacing
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/db917aee-4061-4081-b5fc-d5786defb057/manifest.m3u8
 #EXTINF:-1 tvg-id="NBA 1" tvg-name="NBA 1" tvg-logo="https://cdn.sologo.ai/2025/0424/20250424031403894.png" group-title="Sports TV",NBA Live 01
 http://kstv.us:8080/DBeverly/2290061890/47477
 #EXTINF:-1 tvg-id="NBA 1" tvg-name="NBA 1" tvg-logo="https://cdn.sologo.ai/2025/0424/20250424031403894.png" group-title="Sports TV",NBA Live 02
@@ -1999,3 +2003,5 @@ https://unifi-live07.secureswiftcontent.com/UnifiHD/live11.mpd
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5060/default_ott.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Sports TV"", Womens Network
 https://womensnetwork-lg.amagi.tv/hls/amagi_hls_data_lgAAAAAAA-womensnetwork/CDN/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.coppa=0&ads.targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&givn=[NONCE]
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSemrdir6VQf-woYGsdKnErE3PO74K_5BE_FA&s" group-title="Sports TV", Xtrem Sports
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
