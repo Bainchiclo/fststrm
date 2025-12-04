@@ -440,6 +440,14 @@ https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
 https://streams.comclark.com/overlay/mindanow/playlist.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/dc/Miramax.svg" group-title="Cable Tv [PH]", Miramax
 https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://get.perfecttv.net/logo/mnplus.png" group-title="Cable Tv [PH]", MN Plus
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
+https://get.perfecttv.net/dashVision.mpd?username=vip_sgnep6z9&password=dBlA1nxq&channel=mnplus
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://get.perfecttv.net/logo/mnx.png" group-title="Cable Tv [PH]", MNX HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
+https://get.perfecttv.net/dashVision.mpd?username=vip_sgnep6z9&password=dBlA1nxq&channel=mnxhd
 #EXTINF:-1 tvg-id="moonbug_kids" group-title="Cable Tv [PH]" tvg-logo="https://aqfadtv.xyz/logos/Moonbug.png",Moonbug
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -805,6 +813,12 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=15270&avod=1&coppa=0&td=6&
 https://streams2.sofast.tv/WiseM3U8_18/sofast/cleanhls/master.m3u8
 #EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="" group-title="Cable Tv [Sports]",Blast Sports
 https://amg19223-amg19223c1-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c1-amgplt0351/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Cable Tv [Sports]" tvg-logo="https://get.perfecttv.net/logo/cricketfhd.png", Cricket FHD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=03c2e0af2f8159f9f0ce9b5dbc865f10:cd84ed136b0cc71f8ab8cd4d4f6a2e4c
+https://get.perfecttv.net/dash2.mpd?username=vip_sgnep6z9&password=dBlA1nxq&channel=cricket
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://variety.com/wp-content/uploads/2013/09/espn-logo.jpg" group-title="Cable Tv [Sports]", ESPN
 https://7pal.short.gy/espnus
 #EXTINF:-1 tvg-id="Eurosport 1" tvg-name="Eurosport 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzcN1GFNzhEnMmPxoejSTUjT3yYJ_gkDbO0g&s" group-title="Cable Tv [Sports]",Eurosport 1
@@ -851,6 +865,14 @@ https://live2.shoq.com.pk/live/eds/Fast_Sports_HD/DASH/Fast_Sports_HD.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2f4c7790660c4a0ea82f38ca1998da13:9186a4ec6c2c2af731de820bf517e4e0
 https://cdn08jtedge.indihometv.com/dassdvr/133/fightsport/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Cable Tv [Sports]" tvg-logo="https://get.perfecttv.net/logo/footballfhd.png", Football FHD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+##KODIPROP:inputstream.adaptive.license_key=979e72a070ec437ba92c597c287acbad:7f4db6de524b2e51c87f61566ff77039
+#KODIPROP:inputstream.adaptive.license_key=79f4028730acca9ab8b00f26158ddb10:91febe843c08c7cc523efd827292e40e
+#https://get.perfecttv.net/1080.mpd?username=vip_sgnep6z9&password=dBlA1nxq&channel=footballfhd|authorization=Bearer
+https://get.perfecttv.net/dash2.mpd?username=vip_sgnep6z9&password=dBlA1nxq&channel=footballfhd
 #EXTINF:-1 group-title="Cable Tv [Sports]" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kRD_CzEE876U_cVjUDaMF-hFzDQB906eoYWLq1JT0u99Q=s900-c-k-c0x00ffffff-no-rj", Fox Sports 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -1935,7 +1957,5 @@ https://loveliness.wnion.co.in/chelsea.m3u8
 https://loveliness.wnion.co.in/liverpool.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Monterrey vs Toluca
 https://loveliness.wnion.co.in/tudn.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",SÃ£o Paulo vs Internacional
-https://thedaffodill.wnion.co.in/sao.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Wolves vs Nottingham Forest
 https://loveliness.wnion.co.in/wolves.m3u8
