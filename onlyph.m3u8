@@ -467,6 +467,11 @@ https://s8host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b
 https://s8host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config9/playlist.m3u8?ads.cdnhost=s8host1.localnow.api.cms.amdvids.com&ads.playbackid=CF38ADFE-0D8D-4E70-BC0B-39BF1303D2BA&ads.n1=rule_id&ads.v1=F0F2D67E-43F6-4794-9B68-414843159DD7-1747755763&ads.n3=qp_content_id&ads.v3=CF38ADFE-0D8D-4E70-BC0B-39BF1303D2BA&ads.n4=content_name&ads.v4=NBC%20Washington%20News&ads.n21=h&ads.v21=1080&ads.n22=channel_corp&ads.v22=NBCUniversal&ads.n23=content_type&ads.v23=channel&ads.n24=channel_ext_id&ads.v24=&ads.n25=app_store_url&ads.v25=&ads.n26=network_name&ads.v26=nbc-washington-news&ads.n27=content_producer_name&ads.v27=NBCUniversal&ads.n28=channel_id&ads.v28=CF38ADFE-0D8D-4E70-BC0B-39BF1303D2BA&ads.n29=device_type&ads.v29=&ads.n30=pos&ads.v30=midroll&ads.n31=ifa_type&ads.v31=&ads.n32=gpp_sid&ads.v32=&ads.n33=dnt&ads.v33=&ads.n34=channel_brand_id&ads.v34=AMDB013249&ads.n35=content_custom_3_param&ads.v35=channel&ads.n36=content_provider&ads.v36=nbc-washington-news&ads.n37=channel_company_id&ads.v37=AMDP500448&ads.n38=cust_devicename&ads.v38=desktop_web&ads.n39=channel_genre&ads.v39=News&ads.n40=ua&ads.v40=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n41=device_make&ads.v41=&ads.n42=app_name&ads.v42=&ads.n43=content_custom_1_param&ads.v43=CF38ADFE-0D8D-4E70-BC0B-39BF1303D2BA&ads.n44=app_version&ads.v44=0.0.0&ads.n45=gpp&ads.v45=&ads.n46=device_model&ads.v46=&ads.n47=w&ads.v47=1920&ads.n48=channel_title&ads.v48=NBC%20Washington%20News&ads.n49=channel_name&ads.v49=NBC%20Washington%20News&ads.n50=channel_rating&ads.v50=TV-PG&ads.n51=content_custom_2_param&ads.v51=AMDB013249&ads.n52=ip&ads.v52=86.48.9.131&ads.n53=channel_language&ads.v53=en&ads.n54=content_livestream&ads.v54=1&ads.n55=app_bundle&ads.v55=&ads.n56=did&ads.v56=&ads.n57=us_privacy&ads.v57=1YNY&ads.n58=url&ads.v58=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal
 #EXTINF:-1  tvg-id="24.7.Dummy.us" tvg-logo="https://image.xumo.com/v1/channels/channel/99993008/600x200.png?type=white_cropped" group-title="Cable Tv [PH]", NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008&ads.asnw=169843&ads.afid=380753925&ads.sfid=17667876&ads.csid=lgchannels_us_nbcusports_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB17&ads._fw_content_genre=sports&ads._fw_content_language=en&ads._fw_content_rating=tv-g&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=3929&ads.xumo_contentName=NBCUSports&ads.xumo_providerId=3929&ads.xumo_providerName=NBCUSports&ads.channelId=99993008&ads._fw_ifa_type=dpid
+#EXTINF:-1 tvg-id="1090" tvg-logo="https://ottepg8.comclark.com:8443/iptvepg/images/markurl/mark_1723129823252.png" group-title="Cable Tv [PH]",NET 25
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://key.nathcreqtives.com/widevine/?deviceId=02:00:00:00:00:00
+https://converse.nathcreqtives.com/1090/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/4MozyqM.png" group-title="Cable Tv [PH]",Nick Jr
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -514,12 +519,6 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesports_hd/default/in
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=322d06e9326f4753a7ec0908030c13d8:1e3e0ca32d421fbfec86feced0efefda
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesportsplus_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="onesportsplus" tvg-name="One Sports+" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0obp3bkFUyyBXE-urpHQ3JqvlHSTfICI5Ig&s" group-title="Cable Tv [PH]",One Sports+ II
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=322d06e9326f4753a7ec0908030c13d8:1e3e0ca32d421fbfec86feced0efefda
-https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/F2npB7o.png" group-title="Cable Tv [PH]", Pba Rush
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -1097,8 +1096,6 @@ https://unifi-live07.secureswiftcontent.com/UnifiHD/live11.mpd
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5060/default_ott.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Cable Tv [Sports]"", Womens Network
 https://womensnetwork-lg.amagi.tv/hls/amagi_hls_data_lgAAAAAAA-womensnetwork/CDN/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.coppa=0&ads.targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&givn=[NONCE]
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipi_Cg3KyLx8hpnBt_BrigAfm6VtiXliqrg&s" group-title="Cable Tv [Sports]", WWE NXT
-https://loveliness.wnion.co.in/wwe.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSemrdir6VQf-woYGsdKnErE3PO74K_5BE_FA&s" group-title="Cable Tv [Sports]", Xtrem Sports
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
 
