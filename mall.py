@@ -4,19 +4,11 @@ import time
 from datetime import datetime
 
 playlist_urls = [
-    "https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/PH.m3u",
-    "https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/Converge.m3u8",
-    "https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/NBA%20HOMECOURT.m3u",
-    "https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/nbaglobe.m3u",
-    "https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/IndihomeTV.m3u",
-    "https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/Roxiestreams.m3u8",
-    "https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/nbaleaguepass.m3u",
-    "https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/Nba%20Live%20-%20StreamBTW.m3u",
     "https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/Pixelsports.m3u8"
 ] 
 
 EPG_URL = "https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/DrewLive.xml.gz"
-OUTPUT_FILE = "11.m3u"
+OUTPUT_FILE = "psports.m3u8"
 
 def fetch_playlist(url, retries=3, timeout=30):
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -63,48 +55,28 @@ def parse_playlist(lines, source_url="Unknown"):
 
 def write_merged_playlist(all_channels):
     lines = [f'#EXTM3U url-tvg="{EPG_URL}"', ""]
-    sortable_channels = []
+    group_name = "All Channels"  # <-- single group for all channels
+    lines.append(f'#EXTGRP:{group_name}')
 
-    for extinf, headers, url in all_channels:
-        group_match = re.search(r'group-title="([^"]+)"', extinf)
-        group = group_match.group(1) if group_match else "Other"
-        try:
-            title = extinf.rsplit(',', 1)[1].strip()
-        except IndexError:
-            title = ""
-        sortable_channels.append((group.lower(), title.lower(), extinf, headers, url))
-
-    sorted_channels = sorted(sortable_channels)
-    current_group = None
     total_channels_written = 0
 
-    for group_lower, title_lower, extinf, headers, url in sorted_channels:
-        group_match = re.search(r'group-title="([^"]+)"', extinf)
-        actual_group_name = group_match.group(1) if group_match else "Other"
-
-        if actual_group_name != current_group:
-            if current_group is not None:
-                lines.append("")
-            lines.append(f'#EXTGRP:{actual_group_name}')
-            current_group = actual_group_name
-
+    for extinf, headers, url in all_channels:
+        # Ignore original group-title, just write metadata, headers, URL
         lines.append(extinf)
         for hdr_line in headers:
             lines.append(hdr_line)
         lines.append(url)
         total_channels_written += 1
 
-    if lines and lines[-1] == "":
-        lines.pop()
+    final_output_string = "\n".join(lines) + "\n"
 
-    final_output_string = '\n'.join(lines) + '\n'
+    # WRITE TO BOTH OUTPUT FILES
+    for filename in OUTPUT_FILES:
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(final_output_string)
+        print(f"✅ Merged playlist written to {filename}.")
 
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        f.write(final_output_string)
-
-    print(f"\n✅ Merged playlist written to {OUTPUT_FILE}.")
-    print(f"📊 Total channels merged (including duplicates): {total_channels_written}.")
-    print(f"📝 Total lines in output file: {len(final_output_string.splitlines())}.")
+    print(f"📊 Total channels merged: {total_channels_written}")
 
 if __name__ == "__main__":
     print(f"Starting playlist merge at {datetime.now()}...")
