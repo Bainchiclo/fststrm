@@ -53,7 +53,7 @@ def parse_playlist(lines, source_url="Unknown"):
     print(f"✅ Parsed {len(parsed_channels)} valid channels from {source_url}.")
     return parsed_channels
 
-def write_merged_playlist(all_channels, single_group="Pixelsports"):
+def write_merged_playlist(all_channels, single_group="Roxiestreams"):
     lines = [f'#EXTM3U url-tvg="{EPG_URL}"', ""]
     total_channels_written = 0
 
