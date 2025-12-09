@@ -16,7 +16,7 @@ playlist_urls = [
 ] 
 
 EPG_URL = "https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/DrewLive.xml.gz"
-OUTPUT_FILE = "11.m3u"
+OUTPUT_FILES = ["backup1.m3u", "backup2.m3u"]
 
 def fetch_playlist(url, retries=3, timeout=30):
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -97,14 +97,15 @@ def write_merged_playlist(all_channels):
     if lines and lines[-1] == "":
         lines.pop()
 
-    final_output_string = '\n'.join(lines) + '\n'
+    final_output_string = "\n".join(lines) + "\n"
 
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        f.write(final_output_string)
+    # WRITE TO BOTH OUTPUT FILES
+    for filename in OUTPUT_FILES:
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(final_output_string)
+        print(f"✅ Merged playlist written to {filename}.")
 
-    print(f"\n✅ Merged playlist written to {OUTPUT_FILE}.")
-    print(f"📊 Total channels merged (including duplicates): {total_channels_written}.")
-    print(f"📝 Total lines in output file: {len(final_output_string.splitlines())}.")
+    print(f"📊 Total channels merged: {total_channels_written}")
 
 if __name__ == "__main__":
     print(f"Starting playlist merge at {datetime.now()}...")
