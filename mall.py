@@ -71,7 +71,7 @@ def write_merged_playlist(all_channels):
     final_output_string = "\n".join(lines) + "\n"
 
     # WRITE TO BOTH OUTPUT FILES
-    for filename in OUTPUT_FILES:
+    for filename in OUTPUT_FILE:
         with open(filename, "w", encoding="utf-8") as f:
             f.write(final_output_string)
         print(f"✅ Merged playlist written to {filename}.")
