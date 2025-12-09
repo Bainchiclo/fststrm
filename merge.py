@@ -14,7 +14,7 @@ playlist_urls = [
 ] 
 
 EPG_URL = "https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/DrewLive.xml.gz"
-OUTPUT_FILE = "https://github.com/Bainchiclo/iptv/blob/main/nick.m3u"
+OUTPUT_FILE = "https://raw.githubusercontent.com/Bainchiclo/iptv/refs/heads/main/nick.m3u"
 
 def fetch_playlist(url, retries=3, timeout=30):
     headers = {"User-Agent": "Mozilla/5.0"}
