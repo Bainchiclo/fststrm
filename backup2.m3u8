@@ -1027,12 +1027,6 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_ps_hd1/default/index.mp
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/premiersports2hd/default/index.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Red%20Bull.png" group-title="Cable Tv [Sports]",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://play-lh.googleusercontent.com/4XMJ2spCNeoZDAlQZG6RShsP-4r4Z6P_HUamo1StgVhIOwClBIgYEEBZGrTVlhL_5vw" group-title="Cable Tv [Sports]", SBS Golf
-http://mnet.x10.mx/koreaiptv/gorealra.php?channelPath=sbsgolfpc&streamName=sbsgolf2
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlWVDK0yAtzIXirEf7v8sb1CbFguwQURbw-A&s" group-title="Cable Tv [Sports]", SBS Golf 2
-http://mnet.x10.mx/koreaiptv/gorealra.php?channelPath=sbsgolf2&streamName=sbsgolf22
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.sbs.com.au/_next/static/img/sport/watch-sport-9799ba9.png" group-title="Cable Tv [Sports]", SBS Sports
-http://mnet.x10.mx/koreaiptv/gorealra.php?channelPath=sbsespnpc&streamName=sbsespn2
 #EXTINF:-1 group-title="Cable Tv [Sports]" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdpaROoKaso7qhPdqCq-YTMlmPJTy316W35Q&s", Sky Sport Bundesliga
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
