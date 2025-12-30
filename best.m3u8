@@ -3713,6 +3713,8 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyNXoJNV4yZ6CMmInymbDrD0/.
 #EXTGRP:Roxiestreams
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Al Ittifaq vs Al Nassr
 https://601.shadow-ran.online/darts.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Arsenal vs Aston Villa
+https://streams.bitmovin.com/d59p9366okvm4g5agge0/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams",Boston Celtics vs Utah Jazz
 https://601.shadow-ran.online/nba2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Burnley vs Newcastle United
@@ -3726,9 +3728,9 @@ https://daffodil.shadow-ran.online/pachuca.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams",Coastal Carolina vs. Louisiana Tech
 https://601.shadow-ran.online/ncaa.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams",Detroit Pistons vs Los Angeles Lakers
-https://601.shadow-ran.online/nba3.m3u8
+https://daffodil.shadow-ran.online/nba.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams",Detroit Pistons vs Los Angeles Lakers
-https://daffodil.shadow-ran.online/nba3.m3u8
+https://streams.bitmovin.com/d59p9366okvm4g5agge0/manifest.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams",Kubota High Limit Racing
 https://601.shadow-ran.online/flo.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams",Kubota High Limit Racing
