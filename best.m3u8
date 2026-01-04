@@ -3370,9 +3370,7 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyM_Tduhy9w95BpGuaMK7-Kw/.
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams",Atlanta Hawks vs Toronto Raptors
 https://daffodil.shadow-ran.online/nba3.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Birmingham City vs Coventry City
-https://601.shadow-ran.online/aston.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Birmingham City vs Coventry City
-https://daffodil.shadow-ran.online/usa.m3u8
+https://daffodil.shadow-ran.online/cbssn.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams",Boston Bruins vs Vancouver Canucks
 https://601.shadow-ran.online/nhl13.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams",Boston Celtics vs Los Angeles Clippers
@@ -3392,9 +3390,7 @@ https://601.shadow-ran.online/nhl10.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams",Colorado Avalanche vs Florida Panthers
 https://601.shadow-ran.online/nhl3.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Derby County vs Wrexham
-https://601.shadow-ran.online/aston.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Derby County vs Wrexham
-https://daffodil.shadow-ran.online/usa.m3u8
+https://daffodil.shadow-ran.online/cbssn.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Fulham vs Liverpool
 https://601.shadow-ran.online/benfica.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams",Houston Rockets vs Dallas Mavericks
@@ -3404,7 +3400,9 @@ https://daffodil.shadow-ran.online/deportes.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Laliga
 https://daffodil.shadow-ran.online/deportes.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Leeds United vs Manchester United
-https://daffodil.shadow-ran.online/golazo.m3u8
+https://601.shadow-ran.online/tnt.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Leeds United vs Manchester United
+https://daffodil.shadow-ran.online/usa.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Mallorca vs Girona
 https://daffodil.shadow-ran.online/deportes.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Manchester City vs Chelsea
@@ -3436,7 +3434,7 @@ https://daffodil.shadow-ran.online/nba5.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",PSG vs Paris
 https://daffodil.shadow-ran.online/usa.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Queens Park Rangers vs Sheffield Wednesday
-https://601.shadow-ran.online/cbssn.m3u8
+https://601.shadow-ran.online/qpr.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Real Madrid vs Real Betis
 https://daffodil.shadow-ran.online/deportes.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Real Sociedad vs AtlÃ©tico Madrid
