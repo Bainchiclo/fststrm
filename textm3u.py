@@ -1,68 +1,31 @@
 import requests
-import sys
-from pathlib import Path
 
-TIMEOUT = 10  # seconds
+def create_m3u_from_url(input_url, output_file):
+    response = requests.get(input_url, timeout=15)
+    response.raise_for_status()  # stop if download fails
 
+    lines = response.text.splitlines()
 
-def is_stream_online(url: str) -> bool:
-    """
-    Check if a stream URL is reachable.
-    Uses HEAD first, falls back to GET if needed.
-    """
-    try:
-        response = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
-        if response.status_code < 400:
-            return True
-    except requests.RequestException:
-        pass
+    with open(output_file, "w", encoding="utf-8") as outfile:
+        # M3U header
+        outfile.write("#EXTM3U\n")
 
-    try:
-        response = requests.get(url, timeout=TIMEOUT, stream=True)
-        return response.status_code < 400
-    except requests.RequestException:
-        return False
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
 
-
-def filter_m3u8(input_path: str, output_path: str):
-    with open(input_path, "r", encoding="utf-8") as f:
-        lines = [line.rstrip() for line in f]
-
-    output_lines = []
-    buffer_tags = []
-
-    for line in lines:
-        if line.startswith("#"):
-            buffer_tags.append(line)
-        elif line.strip():
-            url = line.strip()
-            print(f"Checking: {url}")
-
-            if is_stream_online(url):
-                print("  ✓ Online")
-                output_lines.extend(buffer_tags)
-                output_lines.append(url)
-            else:
-                print("  ✗ Offline")
-
-            buffer_tags = []
-
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(output_lines) + "\n")
-
-    print(f"\nSaved filtered playlist to: {output_path}")
+            try:
+                name, url = line.split(",", 1)
+                outfile.write(f"#EXTINF:-1,{name}\n")
+                outfile.write(f"{url}\n")
+            except ValueError:
+                print(f"Skipping invalid line: {line}")
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python filter_m3u8.py input.m3u8 output.m3u8")
-        sys.exit(1)
+    INPUT_URL = "https://raw.githubusercontent.com/yuanwangokk-1/TV-BOX/refs/heads/main/Jsm/json/%E2%9C%A8live%E2%9C%A8.txt"  # <-- your text file URL
+    OUTPUT_FILE = "textm3u.m3u8"
 
-    input_m3u8 = sys.argv[1]
-    output_m3u8 = sys.argv[2]
-
-    if not Path(input_m3u8).exists():
-        print("Input file does not exist.")
-        sys.exit(1)
-
-    filter_m3u8(input_m3u8, output_m3u8)
+    create_m3u_from_url(INPUT_URL, OUTPUT_FILE)
+    print("M3U playlist created:", OUTPUT_FILE)
