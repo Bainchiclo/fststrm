@@ -3945,6 +3945,10 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyJrCz6SdUXS4hRkuRTgLQW0/.
 https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyJrCz6SdUXS4hRkuRTgLQW0/.m3u8
 
 #EXTGRP:Roxiestreams
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Granada vs Rayo Vallecano
+https://daffodil.shadow-ran.online/dep.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams",Laliga
+https://daffodil.shadow-ran.online/dep.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Laliga
 https://daffodil.shadow-ran.online/dep.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams",Lecce vs Roma
