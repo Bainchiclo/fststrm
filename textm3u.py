@@ -12,7 +12,7 @@ def create_m3u_from_sources(sources, output_file):
     sources = [
         ("Source I", "https://raw.githubusercontent.com/yuanwangokk-1/TV-BOX/refs/heads/main/Jsm/json/%E2%9C%A8live%E2%9C%A8.txt"),
         ("Source 2", "https://raw.githubusercontent.com/ffmking/tv1/c0a72145a8afed0f879b98d44ae29dc7e18467e6/1816.txt"),
-        ("Source 3", "https://raw.githubusercontent.com/ffmking/tv1/c0a72145a8afed0f879b98d44ae29dc7e18467e6/777.txt")
+        ("Source 3", "https://raw.githubusercontent.com/lamdow8/iptv-4/90b0e4dc4865e15b9f603ba16cbfb7c0b316d4a8/%E6%88%90%E4%BA%BA%E5%8E%9F%E5%8A%9B%E6%BA%90.txt")
     ]
     """
 
@@ -65,7 +65,7 @@ if __name__ == "__main__":
         ),
          (
             "Source 3",
-            "https://raw.githubusercontent.com/ffmking/tv1/c0a72145a8afed0f879b98d44ae29dc7e18467e6/777.txt"
+            "https://raw.githubusercontent.com/lamdow8/iptv-4/90b0e4dc4865e15b9f603ba16cbfb7c0b316d4a8/%E6%88%90%E4%BA%BA%E5%8E%9F%E5%8A%9B%E6%BA%90.txt"
         )
     ]
 
