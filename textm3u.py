@@ -64,7 +64,7 @@ if __name__ == "__main__":
         )
     ]
 
-    OUTPUT_FILE = "textmm3u.m3u8"
+    OUTPUT_FILE = "textm3u.m3u8"
 
     create_m3u_from_sources(SOURCES, OUTPUT_FILE)
     print("M3U playlist created:", OUTPUT_FILE)
