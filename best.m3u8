@@ -2830,10 +2830,3 @@ http://205.237.104.133/hls/EEEEQq.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://205.237.106.134/hls/BEEEE.m3u8
-
-#EXTGRP:Nba Live - Homecourt
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nba Live - Homecourt", Utah Jazz
-#EXTVLCOPT:http-origin=https://playembed.top
-#EXTVLCOPT:http-referrer=https://playembed.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://gg.poocloud.in/utahjazz/index.m3u8
