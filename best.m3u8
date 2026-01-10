@@ -3953,3 +3953,10 @@ https://king.spider-on.top/playlist/elite/al-wahda-sharjah-cultural-club/1/50410
 #EXTVLCOPT:http-origin=https://spiderembed.top/embed/4610160/wahda-abu-dhabi-sharjah-sc/regular/1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://king.spider-on.top/playlist/regular/wahda-abu-dhabi-sharjah-sc/1/4610160/playlist.m3u8?hash=7dd253defbd4fc78e79ad09fdeb87e37&t=1768060913740
+
+#EXTGRP:Nba Live - Homecourt
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nba Live - Homecourt", Cleveland Cavaliers
+#EXTVLCOPT:http-origin=https://playembed.top
+#EXTVLCOPT:http-referrer=https://playembed.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/clevelandcavaliers/index.m3u8
