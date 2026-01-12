@@ -352,6 +352,12 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_foodnetwork_hd1/default
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=257f9fdeb39d41bdb226c2ae1fbdaeb6:e80ead0f4f9d6038ab34f332713ceaa5
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/france24/default/index.mpd
+#EXTINF:-1 group-title="Cable TV [Mix]" tvg-id="" tvg-logo="", FX Canada
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=11111111111111118111000000000000:43c851db92519761855ee888d342b003
+https://da-d87be7f42001056a00020c260000000000000244.id.cdn.telus.com/wp/lott5-web-opus.cdn.avp.telus.net/232006004229/vxfmt=dp/manifest.mpd?device_profile=dashvmx
 #EXTINF:-1 tvg-logo="" group-title="Cable TV [Mix]", Global News British Columbia
 https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Cable TV [Mix]", Global News Calgary
